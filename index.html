@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Study Hub - Student Survey</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="hero">
+        <h1>Developer Study Hub - Student Survey</h1>
+        <p>Help us understand how aspiring developers learn, practice, and build their coding skills.</p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name.">
+        <br> <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Enter your email.">
+                <br> <br>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" min="13" max="99" required placeholder="(13-99)">
+                <br> <br>
+                <p>What is your current learning status?</p>
+                <select name="dropdown" id="dropdown">
+                    <option value="dropdown">Select your current role</option>
+                    <option value="self-taught">Self-taught developer</option>
+                    <option value="student">High school / College student</option>
+                    <option value="bootcamp">Bootcamp student</option>
+                    <option value="employed">Employed</option>
+                </select>
+                <br> <br>
+                <label>What is your primary coding goal?</label>
+                <br> <br>
+                <input type="radio" name="coding_goal" id="first-job" value="first-job">
+                <label for="first-job">Get my first job in tech</label>
+                <input type="radio" name="coding_goal" id="personal-projects" value="personal">
+                <label for="personal-projects">Build my own personal projects</label>
+                <input type="radio" name="coding_goal" id="hobby" value="hobby">
+                <label for="hobby">Learn as a hobby</label>
+                <input type="radio" name="coding_goal" id="freelancing" value="freelancing">
+                <label for="freelancing">Freelancing</label>
+                <br> <br>
+        <p>Which technologies are you currently learning? (Check all that apply)</p>
+        <input type="checkbox" name="language-learning" id="html" value="html">
+        <label for="html">HTML & CSS</label>
+        <input type="checkbox" name="language-learning" id="javascript" value="javascript">
+        <label for="javascript">JavaScript</label>
+        <input type="checkbox" name="language-learning" id="react" value="react">
+        <label for="react">React / Front-End Frameworks</label>
+        <input type="checkbox" name="language-learning" id="python" value="python">
+        <label for="python">Python</label>
+        <input type="checkbox" name="language-learning" id="nodejs" value="nodejs">
+        <label for="nodejs">Node.js / Back-End</label>
+        <input type="checkbox" name="language-learning" id="databases" value="databases">
+        <label for="databases">Databases (SQL / NoSQL)</label>
+        <input type="checkbox" name="language-learning" id="git" value="git">
+        <label for="git">Git & GitHub</label>
+        <p>What is the biggest challenge you face while learning to code?</p>
+                <textarea name="textarea" id="textarea" placeholder="Write your thoughts or suggestions here..."></textarea>
+                <br>
+                <button type="submit" class="btn">Submit</button>
+    </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <p>Please note that the information entered in this form is for demonstration purposes only and will not be sent or stored anywhere.</p>
+        </div>
+        <p class="copyright">
+            <img src="images/Copyright.png" alt="Logo FT">
+            2026 Francisco Tato - Beta
+        </p>
+    </div>
+</body>
+</html>
