@@ -1,0 +1,1 @@
+This page is a survey form designed for students and aspiring developers. It gathers information on programming habits, learning paths, preferred technologies, and professional goals in the software field. Its structure uses text fields, dropdown menus, radio buttons, and checkboxes to reinforce practical HTML form design.
